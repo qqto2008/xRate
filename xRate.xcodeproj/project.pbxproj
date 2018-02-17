@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772E54E82035028D004505E8 /* LoginToFirebaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772E54E72035028D004505E8 /* LoginToFirebaseViewController.swift */; };
+		775F1A462034DDFF00A48FA6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775F1A452034DDFF00A48FA6 /* SignUpViewController.swift */; };
+		775F1A482034E14A00A48FA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 775F1A472034E14900A48FA6 /* GoogleService-Info.plist */; };
+		777BD973203461C400815240 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777BD971203461C400815240 /* LoginViewController.xib */; };
 		77922159202C34D20045E480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77922158202C34D20045E480 /* AppDelegate.swift */; };
 		7792215B202C34D20045E480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7792215A202C34D20045E480 /* ViewController.swift */; };
 		7792215E202C34D20045E480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7792215C202C34D20045E480 /* Main.storyboard */; };
 		77922161202C34D20045E480 /* xRate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7792215F202C34D20045E480 /* xRate.xcdatamodeld */; };
 		77922163202C34D20045E480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77922162202C34D20045E480 /* Assets.xcassets */; };
 		77922166202C34D20045E480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77922164202C34D20045E480 /* LaunchScreen.storyboard */; };
+		77922171202C42430045E480 /* ConvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77922170202C42430045E480 /* ConvertViewController.swift */; };
+		77922175202E74520045E480 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77922174202E74520045E480 /* CurrencyModel.swift */; };
+		77922177202F03B00045E480 /* PickCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77922176202F03B00045E480 /* PickCurrencyViewController.swift */; };
+		CC09367687A3D6380CC6DD48 /* Pods_xRate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA1F7F7CE90F75D5337069C /* Pods_xRate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CA1F7F7CE90F75D5337069C /* Pods_xRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A9F898879DA4E752F52D1C /* Pods-xRate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xRate.release.xcconfig"; path = "Pods/Target Support Files/Pods-xRate/Pods-xRate.release.xcconfig"; sourceTree = "<group>"; };
+		772E54E72035028D004505E8 /* LoginToFirebaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginToFirebaseViewController.swift; sourceTree = "<group>"; };
+		775F1A452034DDFF00A48FA6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		775F1A472034E14900A48FA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		777BD971203461C400815240 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		77922155202C34D10045E480 /* xRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77922158202C34D20045E480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7792215A202C34D20045E480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +38,10 @@
 		77922162202C34D20045E480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77922165202C34D20045E480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77922167202C34D20045E480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77922170202C42430045E480 /* ConvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertViewController.swift; sourceTree = "<group>"; };
+		77922174202E74520045E480 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		77922176202F03B00045E480 /* PickCurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCurrencyViewController.swift; sourceTree = "<group>"; };
+		B82861AC965BE981B96EC8C9 /* Pods-xRate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xRate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xRate/Pods-xRate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC09367687A3D6380CC6DD48 /* Pods_xRate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				77922157202C34D10045E480 /* xRate */,
 				77922156202C34D10045E480 /* Products */,
+				E09C7EB5854D7EC454DE3D8B /* Pods */,
+				E4566F290A985AE34C6A5275 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,47 @@
 		77922157202C34D10045E480 /* xRate */ = {
 			isa = PBXGroup;
 			children = (
+				7792216D202C3ECD0045E480 /* views */,
 				77922158202C34D20045E480 /* AppDelegate.swift */,
-				7792215A202C34D20045E480 /* ViewController.swift */,
 				7792215C202C34D20045E480 /* Main.storyboard */,
 				77922162202C34D20045E480 /* Assets.xcassets */,
 				77922164202C34D20045E480 /* LaunchScreen.storyboard */,
 				77922167202C34D20045E480 /* Info.plist */,
+				775F1A472034E14900A48FA6 /* GoogleService-Info.plist */,
 				7792215F202C34D20045E480 /* xRate.xcdatamodeld */,
 			);
 			path = xRate;
+			sourceTree = "<group>";
+		};
+		7792216D202C3ECD0045E480 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				7792215A202C34D20045E480 /* ViewController.swift */,
+				77922170202C42430045E480 /* ConvertViewController.swift */,
+				77922174202E74520045E480 /* CurrencyModel.swift */,
+				77922176202F03B00045E480 /* PickCurrencyViewController.swift */,
+				777BD971203461C400815240 /* LoginViewController.xib */,
+				775F1A452034DDFF00A48FA6 /* SignUpViewController.swift */,
+				772E54E72035028D004505E8 /* LoginToFirebaseViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		E09C7EB5854D7EC454DE3D8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B82861AC965BE981B96EC8C9 /* Pods-xRate.debug.xcconfig */,
+				34A9F898879DA4E752F52D1C /* Pods-xRate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4566F290A985AE34C6A5275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CA1F7F7CE90F75D5337069C /* Pods_xRate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7792216A202C34D20045E480 /* Build configuration list for PBXNativeTarget "xRate" */;
 			buildPhases = (
+				A711E33E1865402667DF08DD /* [CP] Check Pods Manifest.lock */,
 				77922151202C34D10045E480 /* Sources */,
 				77922152202C34D10045E480 /* Frameworks */,
 				77922153202C34D10045E480 /* Resources */,
+				6BEBA9DE84A92648569FFA8A /* [CP] Embed Pods Frameworks */,
+				C1B67B5E176A36F7D5177114 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,7 +182,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777BD973203461C400815240 /* LoginViewController.xib in Resources */,
 				77922166202C34D20045E480 /* LaunchScreen.storyboard in Resources */,
+				775F1A482034E14A00A48FA6 /* GoogleService-Info.plist in Resources */,
 				77922163202C34D20045E480 /* Assets.xcassets in Resources */,
 				7792215E202C34D20045E480 /* Main.storyboard in Resources */,
 			);
@@ -134,13 +192,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6BEBA9DE84A92648569FFA8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-xRate/Pods-xRate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xRate/Pods-xRate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A711E33E1865402667DF08DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xRate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B67B5E176A36F7D5177114 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xRate/Pods-xRate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77922151202C34D10045E480 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77922177202F03B00045E480 /* PickCurrencyViewController.swift in Sources */,
+				775F1A462034DDFF00A48FA6 /* SignUpViewController.swift in Sources */,
+				772E54E82035028D004505E8 /* LoginToFirebaseViewController.swift in Sources */,
+				77922175202E74520045E480 /* CurrencyModel.swift in Sources */,
 				7792215B202C34D20045E480 /* ViewController.swift in Sources */,
 				77922159202C34D20045E480 /* AppDelegate.swift in Sources */,
+				77922171202C42430045E480 /* ConvertViewController.swift in Sources */,
 				77922161202C34D20045E480 /* xRate.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +397,11 @@
 		};
 		7792216B202C34D20045E480 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82861AC965BE981B96EC8C9 /* Pods-xRate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFEUB87F32;
 				INFOPLIST_FILE = xRate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hao.xRate;
@@ -290,9 +413,11 @@
 		};
 		7792216C202C34D20045E480 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A9F898879DA4E752F52D1C /* Pods-xRate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFEUB87F32;
 				INFOPLIST_FILE = xRate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hao.xRate;
